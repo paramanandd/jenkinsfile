@@ -1,0 +1,3 @@
+node {
+  git url: '$GWBT_REPO_CLONE_URL'
+}
