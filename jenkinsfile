@@ -1,4 +1,7 @@
+stage "unit test"
+
 node {
   git : '$GWBT_REPO_CLONE_URL'
   sh 'echo $GWBT_REPO_CLONE_URL'
 }
+
